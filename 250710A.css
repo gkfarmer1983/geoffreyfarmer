@@ -7,6 +7,11 @@ body {
   text-align: center;
 }
 
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .profile-image {
   width: 33%;
   max-width: 300px;
@@ -19,7 +24,6 @@ body {
   font-style: italic;
   font-size: 1.4rem;
   color: #ccc;
-  text-align: center;
   margin: 0 auto;
   max-width: 600px;
 }
