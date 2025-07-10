@@ -10,9 +10,21 @@ body {
   height: 100vh;
 }
 
-.container h1 {
-  font-size: 4rem;
-  font-weight: bold;
+.container {
   text-align: center;
-  letter-spacing: 2px;
+}
+
+.profile-image {
+  width: 33%; /* shrink to one-third width */
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.4rem;
+  color: #ccc;
+  margin: 0 auto;
+  max-width: 600px;
 }
