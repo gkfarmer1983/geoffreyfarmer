@@ -1,21 +1,15 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 40px 0;
   background-color: #111;
   color: #fff;
   font-family: sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.container {
   text-align: center;
 }
 
 .profile-image {
-  width: 33%; /* shrink to one-third width */
+  width: 33%;
+  max-width: 300px;
   height: auto;
   border-radius: 8px;
   margin-bottom: 20px;
@@ -25,6 +19,7 @@ body {
   font-style: italic;
   font-size: 1.4rem;
   color: #ccc;
+  text-align: center;
   margin: 0 auto;
   max-width: 600px;
 }
