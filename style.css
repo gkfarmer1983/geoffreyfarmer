@@ -1,9 +1,9 @@
 body {
   margin: 0;
-  padding: 40px 0;
+  padding: 60px 0;
   background-color: #111;
   color: #fff;
-  font-family: sans-serif;
+  font-family: Georgia, serif;
   text-align: center;
 }
 
@@ -12,14 +12,27 @@ body {
   margin: 0 auto;
 }
 
-.full-image {
+.wave-image {
   display: block;
   margin: 0 auto 20px auto;
+  width: 33%;
+  max-width: 400px;
+  height: auto;
+}
+
+.quote,
+.email {
+  font-size: 1.2rem;
+  max-width: 400px; /* Matches image max width */
+  margin: 0 auto;
 }
 
 .quote {
   font-style: italic;
-  font-size: 1.4rem;
   color: #ccc;
-  white-space: nowrap;
+}
+
+.email {
+  margin-top: 40px; /* Two line breaks worth of space */
+  color: #88c0ff;
 }
