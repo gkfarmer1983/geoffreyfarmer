@@ -1,38 +1,47 @@
 body {
   margin: 0;
-  padding: 60px 0;
+  padding: 40px 0;
   background-color: #111;
   color: #fff;
   font-family: Georgia, serif;
   text-align: center;
 }
 
-.container {
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.wave-image {
-  display: block;
-  margin: 0 auto 20px auto;
-  width: 33%;
-  max-width: 400px;
+.profile-image {
+  width: 80%;
+  max-width: 800px;
   height: auto;
-}
-
-.quote,
-.email {
-  font-size: 1.2rem;
-  max-width: 400px; /* Matches image max width */
-  margin: 0 auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 .quote {
   font-style: italic;
+  font-size: 1.4rem;
   color: #ccc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 40px;
 }
 
-.email {
-  margin-top: 40px; /* Two line breaks worth of space */
-  color: #88c0ff;
+.articles {
+  margin-top: 20px;
+}
+
+.articles h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.articles a {
+  color: #9e30ff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.articles a:hover {
+  text-decoration: underline;
 }
